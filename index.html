@@ -1,0 +1,61 @@
+<!--This is the homepage of my website
+This will consist of many elements such as sidebar, links on that sidebar and other personal links.
+Created by Bryan Berrent
+Copyrighted 2018-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Title of the webpage-->
+    <title>RazaDelta</title>
+    <!--Links the CSS to the HTML-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!--Links Javascript to HTML-->
+    <script src="script.js"></script>
+</head>
+<!--Creates a header containing the following information. Will be stored in the content section at the top of the page-->
+<header class="content">
+    <h1 class="HeaderHover"> RazaDelta.com </h1>
+    <h2> An online portfolio and leisure site</h2>
+    <h3> Created by Bryan Berrent</h3>
+</header>
+
+<body>
+    <!--Create a division to make the sidebar-->
+    <div id="sidebar">
+        <!--Creates the 3 lines for the side bar-->
+        <div class="toggle-btn" onclick="toggleSidebar(this)">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+        <!--Creates the list of links on the sidebar. If the page is active, it will be displayed in green.-->
+        <div class="list">
+            <a class="active" href="index.html">Home</a>
+            <a href="aboutMe.html">About me</a>
+            <a href="sunyPoly.html">SUNY Poly Work</a>
+            <a href="personalProjects.html">Personal Projects</a>
+            <a href="blog.html">Blog</a>
+        </div>
+    </div>
+
+    <!--Displays welcome text to the website. -->
+    <div class="content">
+        <p class="Welcome">
+            Welcome to my website! This website was created as my capstone project at SUNY Polytechnic Institute. It will display what I have done during my time at SUNY Poly. In the future, I plan to add more projects I've done over the years as well as make this into my own personal blog. Stay tuned for more and thanks for stopping by!
+
+        </p>
+    </div>
+
+</body>
+<!--The footer of the website -->
+<footer>
+    <p class="Ending"> Want to stay connected? Follow me on <a href="https://twitter.com/razadelta">Twitter</a> and <a href="https://www.instagram.com/razadelta/">Instagram</a> or let's connect on <a href="https://www.linkedin.com/in/bryan-berrent-65262012a/">LinkedIn</a>!</p>
+    <h4>Created on May 19th, 2018
+
+        <!--Note, these breaks were added as a temporary fix to the background-->
+        <br><br><br><br><br><br><br>
+    </h4>
+</footer>
+
+</html>
