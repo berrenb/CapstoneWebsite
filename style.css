@@ -17,8 +17,9 @@
 /* Displays the background image */
 body {
     transition: all 300ms linear;
-    background-image: url("HomePageV3.jpg");
+    background-image: url("HomePageV4.jpg");
     background-size: cover;
+
 
 }
 
