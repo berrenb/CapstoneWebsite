@@ -17,7 +17,7 @@
 /* Displays the background image */
 body {
     transition: all 300ms linear;
-    background-image: url("HomePageV4.jpg");
+    background-image: url("/img/AboutMe.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -173,13 +173,6 @@ h4 {
     color: azure;
 }
 
-/* Specifys the class, Welcomes' styles */
-.Welcome {
-    color: floralwhite;
-    font-family: Arial;
-    font-size: 14pt;
-
-}
 
 /* Specifys the class, About Mes' styles */
 .AboutMe {
@@ -226,4 +219,6 @@ a:visited {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 50%;
+    
 }

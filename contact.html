@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html>
@@ -8,11 +9,13 @@
         Contact me!
     </title>
     <!--Links the CSS to the HTML-->
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="/css/contact.css" type="text/css">
     <!--Links Javascript to HTML-->
-    <script src="script.js"></script>
+    <script src="/js/script.js"></script>
 </head>
-
+<header>
+    <div class = "header"><span>Contact Me!</span></div>
+    </header>
 <body>
     <!--Create a division to make the sidebar-->
     <div id="sidebar">
@@ -31,18 +34,18 @@
             <a class="active" href="contact.html">Contact me!</a>
         </div>
     </div>
-    <header>
-        <h1>Let's start a convo! </h1>
-    </header>
-    <p class="AboutMe">
-    Have a question you want to ask me? Fill out the form below and I'll get back to you as soon as I can.
-    </p>
-    <form>
-        First name:<br>
-        <input type="text" name="firstname"><br>
-        Last name:<br>
-        <input type="text" name="lastname"><br>
+   <div class = content>
+    <form method="post" action="mailto:razadelta@gmail.com"
+          enctype="text/plain">
+        Name:<br>
+        <input type="text" name="firstname" size="35"><br>
+        Email:<br>
+        <input type="text" name="email" size="35"><br>
+        Message:<br>
+        <textarea rows="15" cols="80" maxlength="500" wrap="hard"></textarea>
+        <br><input type="submit" value="Send">
     </form>
+    </div>
 </body>
 
 </html>
