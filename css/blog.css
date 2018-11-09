@@ -126,7 +126,7 @@ body.sidebar-active #sidebar {
     font-family: Arial;
     color: floralwhite;
     z-index: -1;
-    background-color: rgb(0,0,0,0.6)
+    background-color: rgb(0, 0, 0, 0.6)
 }
 
 /* If an html file uses a header1 tag, specify the different styles */
