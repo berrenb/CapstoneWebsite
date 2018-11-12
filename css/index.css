@@ -91,7 +91,7 @@ body {
     font-size: 15px;
     text-decoration: none;
     font-family: Arial;
-    background-color: black;
+    background-color: rgb(0, 0, 0, 0.5);
 }
 
 /* The active link is highlighted in green*/

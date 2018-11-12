@@ -91,7 +91,7 @@ body {
     font-size: 15px;
     text-decoration: none;
     font-family: Arial;
-    background-color: black;
+    background-color: rgb(0, 0, 0, 0.5);
 }
 
 /* The active link is highlighted in green*/
@@ -138,35 +138,6 @@ h1 {
 
 }
 
-/* If an html file uses a header2 tag, specify the different styles */
-h2 {
-    font-size: 18pt;
-    font-family: Arial;
-    text-align: center;
-    color: floralwhite;
-    padding: 0;
-    margin: 0;
-
-}
-
-/* If an html file uses a header3 tag, specify the different styles */
-h3 {
-    font-size: 16pt;
-    font-family: Arial;
-    text-align: center;
-    color: floralwhite;
-    padding: 0;
-    margin: 0;
-
-}
-
-/* If an html file uses a header4 tag, specify the different styles */
-h4 {
-    color: floralwhite;
-    font-family: Arial;
-    font-size: 12pt;
-
-}
 
 /* When the user hovers over the Header, highlight the text in azure color */
 .HeaderHover:hover {
@@ -202,17 +173,6 @@ footer {
 
 }
 
-
-
-/* If there's a hyperlink that has not been visited, display it in aliceblue*/
-a:link {
-    color: aliceblue;
-}
-
-/* If there's a hyperlink that has been visited, display it in azure*/
-a:visited {
-    color: azure;
-}
 
 /* If there are any images needing to be centered, this portion of code does that. */
 .centerImage {

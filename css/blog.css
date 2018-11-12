@@ -91,7 +91,7 @@ body {
     font-size: 15px;
     text-decoration: none;
     font-family: Arial;
-    background-color: black;
+    background-color: rgb(0, 0, 0, 0.5);
 }
 
 /* The active link is highlighted in green*/
@@ -117,18 +117,6 @@ body.sidebar-active #sidebar {
     left: 0px;
 }
 
-/* This section of CSS specifys any code in the content section*/
-
-.content {
-    padding: 10px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: Arial;
-    color: floralwhite;
-    z-index: -1;
-    background-color: rgb(0, 0, 0, 0.6)
-}
-
 /* If an html file uses a header1 tag, specify the different styles */
 h1 {
     font-size: 30pt;
@@ -139,30 +127,32 @@ h1 {
 
 }
 
-
-/* When the user hovers over the Header, highlight the text in azure color */
-.HeaderHover:hover {
-    color: azure;
+/* This section of CSS specifys any code in the content section*/
+.Top {
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20pt;
+    color: darkorange;
+    z-index: -1;
+    background-color: rgb(0, 0, 0)
 }
 
+/* This section of CSS specifys any code in the content section*/
+
+.content {}
 
 
 /* This is the styles incorporated in the Ending class */
 .Ending {
-    color: floralwhite;
+    height: 40px;
+    position: fixed;
+    bottom: 10%;
+    color: whitesmoke;
     font-family: Arial;
-    font-size: 12pt;
+    font-size: 16pt;
 
-
-}
-
-/* Any styles in the footer section of the website will follow the following styles */
-footer {
-    color: floralwhite;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    font-size: 12pt;
 
 }
 
