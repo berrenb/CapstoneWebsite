@@ -1,0 +1,171 @@
+/*
+    This CSS file incorporates the style and color scheme of the website for each webpage.
+    Created by Bryan Berrent
+    Copyrighted 2018
+*/
+    {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+
+}
+
+* {}
+
+/* Displays the background image */
+body {
+    transition: all 300ms linear;
+    background-image: url("/img/contact.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+/* Style for the sidebar when opened */
+#sidebar {
+    position: absolute;
+    top: 0px;
+    left: -200px;
+    width: 200px;
+    height: 100%;
+    transition: all 300ms linear;
+
+}
+
+/* Style for the side bar button clickinh functionality */
+#sidebar .toggle-btn {
+    position: absolute;
+    left: 220px;
+    top: 10px;
+    width: 30px;
+    display: block;
+    margin: 1em 0 0 1em;
+}
+
+/* Style of the 3 lines*/
+#sidebar .toggle-btn div {
+    height: 4px;
+    background-color: floralwhite;
+    margin: 5px 0px;
+    border-radius: 25px;
+}
+
+/* Styles top line*/
+#sidebar .toggle-btn .one {
+    width: 30px;
+}
+
+/* Styles middle line*/
+#sidebar .toggle-btn .two {
+    width: 20px;
+}
+
+/* Styles bottom line*/
+#sidebar .toggle-btn .three {
+    width: 25px;
+}
+
+/* Styles lines under links line*/
+#sidebar .toggle-btn .four {
+    width: 30px;
+}
+
+/* Makes the lines equaled when hovered*/
+#sidebar .toggle-btn:hover div {
+    width: 30px;
+    transition: 0.3s;
+
+}
+
+/* Shows the list of links with various styles*/
+#sidebar div.list a {
+    display: block;
+    padding: 15px 10px;
+    border-bottom: 1px solid #444;
+    color: #fcfcfc;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Arial;
+    background-color: black;
+}
+
+/* The active link is highlighted in green*/
+#sidebar div.list a.active {
+    display: block;
+    padding: 15px 10px;
+    border-bottom: 1px solid #444;
+    color: green;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+/* If the sidebar is active, move the content 200px to the right */
+body.sidebar-active {
+    padding-left: 200px;
+
+}
+
+/* Set default postion to left side */
+body.sidebar-active #sidebar {
+    left: 0px;
+}
+
+/* This section of CSS specifys any code in the content section*/
+.header {
+    font-size: 30pt;
+    font-family: Arial;
+    text-align: center;
+    color: floralwhite;
+
+}
+
+span {
+    background-color: rgb(0, 0, 0);
+}
+
+.content {
+    padding: 10px;
+    margin-top: 60px;
+    text-align: left;
+    font-family: Arial;
+    font-size: 20pt;
+    color: floralwhite;
+    z-index: -1;
+}
+
+
+
+
+/* This is the styles incorporated in the Ending class */
+.Ending {
+    color: floralwhite;
+    font-family: Arial;
+    font-size: 12pt;
+
+
+}
+
+
+
+/* If there's a hyperlink that has not been visited, display it in aliceblue*/
+a:link {
+    color: aliceblue;
+}
+
+/* If there's a hyperlink that has been visited, display it in azure*/
+a:visited {
+    color: azure;
+}
+
+/* If there are any images needing to be centered, this portion of code does that. */
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
