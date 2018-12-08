@@ -141,7 +141,12 @@ h1 {
 
 /* This section of CSS specifys any code in the content section*/
 
-.content {}
+.content {
+    color: floralwhite;
+    font-family: Arial;
+    font-size: 14pt;
+
+}
 
 
 /* This is the styles incorporated in the Ending class */
@@ -157,7 +162,6 @@ h1 {
 }
 
 
-
 /* If there's a hyperlink that has not been visited, display it in aliceblue*/
 a:link {
     color: aliceblue;
@@ -166,11 +170,4 @@ a:link {
 /* If there's a hyperlink that has been visited, display it in azure*/
 a:visited {
     color: azure;
-}
-
-/* If there are any images needing to be centered, this portion of code does that. */
-.centerImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }

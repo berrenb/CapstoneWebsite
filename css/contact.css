@@ -140,19 +140,6 @@ span {
 }
 
 
-
-
-/* This is the styles incorporated in the Ending class */
-.Ending {
-    color: floralwhite;
-    font-family: Arial;
-    font-size: 12pt;
-
-
-}
-
-
-
 /* If there's a hyperlink that has not been visited, display it in aliceblue*/
 a:link {
     color: aliceblue;
@@ -161,11 +148,4 @@ a:link {
 /* If there's a hyperlink that has been visited, display it in azure*/
 a:visited {
     color: azure;
-}
-
-/* If there are any images needing to be centered, this portion of code does that. */
-.centerImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
